@@ -130,11 +130,18 @@ color: var(--accent-color);}
 text-align:center;
 background-color: var(--background-color-dark);
 padding-top: 200px;
-padding-bottom: 200px;}
+padding-bottom: 200px;
+background-image: url(../images/hero\ image.jpg);
+background-color: var(--background-color-dark);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+background-attachment:fixed;
+}
 
 .hero-title {
 color: var(--secondary-text-color);
-background-color:var(--background-color-dark);
+
 letter-spacing:0.06em;
 font-weight: 900;
 font-size: 44px;
