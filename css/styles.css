@@ -269,10 +269,7 @@ background-color: var(--primary-background-color);}
 .social-icon {
     width: 20px;
     height: 20px;
-    fill: var(--color-icons-not-hovwer);
-   
-
-}
+    fill: var(--color-icons-not-hovwer);}
 .link-social:hover .social-icon,
 .link-social:focus .social-icon{
 fill:var(--secondary-text-color);
@@ -291,11 +288,6 @@ cursor: pointer;
 justify-content: center;
     align-items: center;}
 
-
-/* .social-icon:not(:last-child) {
-    margin-right: 10px;
-} */
-
 .command-icons {
     text-align: center;
     padding: 0;
@@ -308,7 +300,48 @@ justify-content: center;
     margin-right: 10px;
     
 }
+/* Clients */
+.client-icon {
+    width: 106px;
+    height: 60px;
+    fill: var(--color-icons-not-hovwer);
 
+}
+
+.client-link:hover .client-icon,
+.client-link:focus .client-icon {
+    fill: var(--accent-color);
+}
+.client-link:hover,
+.client-link:focus{
+        border: 1px solid var(--accent-color);
+            border-radius: 4px;
+        }
+
+
+
+.client-link {
+    border: 1px solid var(--color-icons-not-hovwer);
+    width: 170px;
+    height: 92px;
+    padding: 16px 32px;
+    border-radius: 4px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.clients-icons .icon:not(:last-child) {
+    margin-right: 30px;
+}
+
+.clients-icons .icon {
+    display: inline-block;
+}
+
+.clients-icons {
+    text-align: center;
+}
 /* Footer */
 .logo-footer{
 margin-bottom: 20px;
@@ -375,17 +408,20 @@ background-color: var(--background-color-dark);}
     display: inline-block;
 }
 
-.footer-icon-box {
+.footer-link {
     width: 44px;
     height: 44px;
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.1);
     padding: 12px; 
     margin-right: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
 }
 
 
-.footer-icon-box .footer-icon {
+.footer-link .footer-icon {
     width: 20px;
     height: 20px;
     fill: var(--primary-background-color);
@@ -401,9 +437,7 @@ background-color: var(--background-color-dark);}
 }
 
 .footer-icons {
-    padding: 0;
-  
-}
+    padding: 0;}
 
 .footer-auth.icons-block {}
 
@@ -411,10 +445,12 @@ background-color: var(--background-color-dark);}
     width: 231px;
     height: 81px;
 }
-.footer-link:hover .footer-icon {
+.footer-link:hover .footer-icon,
+.footer-link:focus .footer-icon {
     color: var(--secondary-text-color);
 }
-.footer-link:hover .footer-icon-box{
+.footer-link:hover,
+.footer-link:focus{
     background-color: var(--accent-color);
 }
 
@@ -488,7 +524,8 @@ background-color: var(--background-color-dark);}
             border: none;
             outline: none;
         background-color: #FFFFFF;}
-            .example .link:hover{
+            .example .link:hover,
+            .example .link:focus{
             color: var(--primary-text-colour);
             background-color: #FFFFFF;
             box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
@@ -515,6 +552,7 @@ background-color: var(--background-color-dark);}
         .card-down {
             border: 1px solid var(--background-color-border-image-portfolio);
             padding: 20px 24px;
+            text-align: left;
         }
     
 /* 
@@ -539,34 +577,4 @@ fill: var(--text-color);
 
 }
 
-
-.client-icon{
-    width: 106px;
-    height: 60px;
-    fill: var(--color-icons-not-hovwer);
-    
-}
-.client-link:hover .client-icon{
-    fill: var(--accent-color);
-}
-.client-link:hover .client-icon-box{
-    border: 1px solid var(--accent-color);
-    border-radius: 3%;
-}
-.client-icon-box{
-    border: 1px solid var(--color-icons-not-hovwer);
-    width: 170px;
-    height: 92px;
-    padding: 16px 32px;
-    border-radius:4px;
-}
-.clients-icons .icon:not(:last-child) {
-    margin-right: 30px;
-}
-.clients-icons .icon{
-    display: inline-block;
-}
-.clients-icons{
-    text-align: center;
-}
 
